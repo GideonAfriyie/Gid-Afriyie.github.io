@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://GideonAfriyie.github.io/sitemap.xml
+Sitemap: https://gideonafriyie.github.io/Gid-Afriyie.github.io//sitemap.xml
