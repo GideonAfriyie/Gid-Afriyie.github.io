@@ -1,62 +1,98 @@
 ---
 layout: page
 title: Extreme Value Theory in Prime Gaps
-description: How a curiosity about Cramér's conjecture turned into a 14-month journey of brutal peer reviews, 50 million data points, and my first journal publication.
+description: How a simple question about Cramér's conjecture became a 14-month journey through peer review, 50 million prime gaps, and my first journal publication.
 img: assets/img/evt_50m_final_results.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-This project started out of pure, stubborn curiosity. 
+This project began with a simple question that I couldn't stop thinking about.
 
-About a year and a half ago, I read an article explaining how Extreme Value Theory (EVT) is used to model the "tails" of distributions—basically, predicting rare, extreme events like massive floods or stock market crashes. I immediately wondered: *Could we use this to study prime numbers?* 
+About a year and a month ago, I came across an article explaining how **Extreme Value Theory (EVT)** is used to study the tails of probability distributions—the rare, extreme events behind things like catastrophic floods, financial crashes, and other unlikely phenomena. My first thought was:
 
-Specifically, I wanted to look at **Cramér's conjecture**, which predicts how large the gaps between consecutive prime numbers can get. Other researchers had studied this from a purely theoretical math perspective, but I wanted to see if the statistical data actually backed it up. 
+> *Could these same statistical ideas tell us something about prime numbers?*
 
-I didn't really know where to start, so I just started asking questions. When I got stuck, I reached out to my professors for guidance, took their feedback, and kept pushing forward.
+More specifically, I became fascinated by **Cramér's conjecture** after learning about it in my Abstract Math course, one of the most well-known conjectures about how large the gaps between consecutive prime numbers can become. While the conjecture has traditionally been studied from a theoretical number theory perspective, I wondered whether the data itself could provide statistical evidence supporting its predictions.
 
----
-
-### The First Attempt & The Brutal Review
-
-In my first draft of the paper, I used a dataset of **1 million prime gaps**. At that scale, the data showed what's called *Fréchet* behavior (a type of heavy-tailed distribution limit). I submitted it to the *Journal of Statistics & Probability Letters* (Elsevier).
-
-The reviewers did not hold back. They were brutal, but incredibly helpful. One of the reviewers wrote:
-
-> "The manuscript presents an interesting statistical approach to studying prime gaps... While the statistical analysis is carefully executed, the manuscript raises significant conceptual and methodological concerns, particularly the justification of EVT assumptions and the interpretation of results, [which] must be addressed before publication."
-
-I had two choices: get discouraged and quit, or go through their feedback line-by-line. I chose the second option. 
+I wasn't entirely sure how to approach the problem at first, so I did what I've always done whenever I get curious: I started reading papers, experimenting with ideas, asking lots of questions, and reaching out to professors whenever I got stuck. Every answer seemed to raise another question, and before I knew it, a small curiosity had grown into a full research project.
 
 ---
 
-### Overcoming the Math Challenges & The Data Plots
+### The First Submission
 
-To address the reviewers' critiques, I had to completely restructure my approach. I scaled up the code and expanded the dataset from 1 million to **50 million prime gaps**. 
+My first version of the paper analyzed **1 million consecutive prime gaps** using Generalized Extreme Value (GEV) distributions. At that scale, the data appeared to follow a **Fréchet** distribution, suggesting heavy-tailed behavior.
 
-When I ran the new data, the statistical behavior shifted beautifully from *Fréchet* to **Gumbel** behavior, aligning perfectly with classical number theory predictions. Furthermore, to prove why probability theory applies to deterministic primes, I shifted from an Augmented Dickey-Fuller (ADF) test to an **Autocorrelation Function (ACF)** analysis on normalized gaps:
+Encouraged by the results, I submitted the manuscript to *Statistics & Probability Letters*.
 
-$$\frac{g_n}{\log p_n}$$
+The reviews came back with a clear message: the statistical analysis was interesting, but the mathematical justification needed to be much stronger.
 
-The ACF perfectly demonstrated that prime gaps behave statistically as if they are independent, identically distributed random variables.
+Reviewer summarized it well:
+
+> "The manuscript presents an interesting statistical approach to studying prime gaps and could potentially contribute to the intersection of statistics and number theory... While the statistical analysis is carefully executed, the manuscript raises significant conceptual and methodological concerns, particularly the justification of EVT assumptions and the interpretation of results, that must be addressed before publication."
+
+At that point I had two options.
+
+I could convince myself that the reviewers simply didn't understand the work, or I could assume they were pointing out genuine weaknesses and use their feedback to improve it.
+
+I chose the second option.
+
+---
+
+### Revisiting the Mathematics
+
+Over four months, I worked through every reviewer comment one by one.
+
+The biggest change was expanding the dataset from **1 million** to **50 million prime gaps**, which required rewriting much of the pipeline and repeating the statistical analysis from scratch.
+
+Interestingly, the conclusions changed.
+
+With the larger dataset, the limiting distribution shifted naturally from **Fréchet** to **Gumbel**, bringing the empirical results into much closer agreement with predictions from classical number theory.
+
+I also revisited one of the central criticisms of the paper.
+
+Rather than relying primarily on an Augmented Dickey-Fuller (ADF) test, I introduced an **Autocorrelation Function (ACF)** analysis of the normalized prime gaps,
+
+$$
+\frac{g_n}{\log p_n},
+$$
+
+to demonstrate that the sequence behaves statistically much like independent, identically distributed random variables—the key assumption underlying the Extreme Value Theory framework.
 
 <div class="row justify-content-sm-center mt-4">
   <div class="col-sm-6 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/evt_50m_final_results.png" title="Distribution Shift" class="img-fluid rounded z-depth-1" %}
-    <div class="caption">Figure 1: The shift from Fréchet to Gumbel distribution as data scaled to 50M gaps.</div>
+    <div class="caption">Figure 1. As the dataset increased to 50 million prime gaps, the limiting distribution shifted from Fréchet toward Gumbel, aligning with classical theoretical predictions.</div>
   </div>
   <div class="col-sm-6 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/acf_validation_50m.png" title="ACF Analysis" class="img-fluid rounded z-depth-1" %}
-    <div class="caption">Figure 2: ACF of normalized prime gaps demonstrating statistical independence.</div>
+    <div class="caption">Figure 2. Autocorrelation analysis of normalized prime gaps showing the weak dependence required for applying Extreme Value Theory.</div>
   </div>
 </div>
 
 ---
 
-### Rejections, Persistence, and Acceptance
+### What I Learned
 
-It took 14 months of hard work, learning from initial rejections at other journals that thought the paper was "out of scope," and grinding through the intense revision process. But in the end, the changes made the paper incredibly robust, and it was officially accepted for publication!
+In summary, this project took about **14 months** from the initial idea to journal acceptance.
 
-I learned so much from this process. It taught me that research isn't about being the smartest person in the room from day one. It's about asking "dumb" questions, trying things step-by-step, and taking brutal feedback as a roadmap to improve rather than a reason to stop.
+Along the way, the paper was rejected by journals that considered it outside their scope, challenged by reviewers who pushed me to justify every assumption, and revised it.
 
-Funny enough, after the paper went through, the journal actually invited me to act as a **peer reviewer** for another manuscript on extreme value distributions. Since it was my first time and I was swamped with other work, I had to decline—but once I gain a bit more experience and clear my schedule, I can’t wait to give back and do the service one day!
+Looking back, I'm grateful for every one of those setbacks because it forced the work to become stronger.
+
+More importantly, this project completely changed how I think about research.
+
+I used to believe research was about having brilliant ideas from the beginning.
+
+Now I think it's almost the opposite.
+
+Research is about asking questions you're genuinely curious about, being willing to admit when your first approach is incomplete, and treating criticism as an opportunity to learn rather than a reason to stop.
+
+This paper began with a question that probably sounded naive:
+
+> *Could Extreme Value Theory tell us something about prime numbers?*
+
+Almost 14 months later, that curiosity became my first peer-reviewed journal publication.
+
+Perhaps the most unexpected moment came when the editorial board invited me to serve as a peer reviewer for another manuscript on extreme value distributions. Since I was balancing work and several commitments, I declined the invitation, but it meant a great deal to me. One day, when I have gained more experience, I hope to contribute to the research community in the same way others helped me throughout this journey.
