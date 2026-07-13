@@ -26,7 +26,7 @@ announcements:
 
 Hi there! I'm Gideon, a senior mathematics undergraduate at Gettysburg College.
 
-To be completely honest, I'm a slow thinker. I like taking my time to think through problems and ask questions until I understand them deeply. That curiosity and persistence eventually led me into research and, ultimately, to publishing my work.
+I like taking my time to think through problems and ask questions until I understand them deeply. That curiosity and persistence eventually led me into research and, ultimately, to publishing my work.
 
 What excites me most is seeing how mathematics can be used to understand and solve real-world problems. I'm always learning, always asking questions, and always looking for opportunities to apply mathematical ideas to research in AI, statistics, and beyond. I may not always be the smartest person in the room, but I'm curious, determined, and committed to doing meaningful work.
 
