@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Awards & Honors
+title: awards
 permalink: /awards/
 nav: true
 nav_order: 3
