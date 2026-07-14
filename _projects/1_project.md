@@ -95,4 +95,4 @@ This paper began with a question that probably sounded naive:
 
 Almost 14 months later, that curiosity became my first peer-reviewed journal publication.
 
-Perhaps the most unexpected moment came when the editorial board invited me to serve as a peer reviewer for another manuscript on extreme value distributions. Since I was balancing work and several commitments, I declined the invitation, but it meant a great deal to me. One day, when I have gained more experience, I hope to contribute to the research community in the same way others helped me throughout this journey.
+Perhaps the most unexpected moment came when the editorial board invited me to serve as a peer reviewer for a manuscript on extreme value distributions. Since I was balancing work and several commitments, I had to decline the invitation, but it meant a great deal to me. One day, when I have gained more experience, I hope to contribute to the research community in the same way others helped me throughout this journey.
