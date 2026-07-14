@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-09-10
+date: 2026-05-25
 inline: true
 ---
 
-🎉 The research "Extreme Value Theory Analysis of Prime Gap Distributions" has been accepted for presentation at the **2025 National Association of Mathematicians(NAM) MathFest**
+🎉 Awarded the competitive **Taylor Gaw ’13 Endowed Fellowship** to support my summer research as an altREU Fellow at Portland State University
