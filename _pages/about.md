@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Mathematics Student | Gettysburg College
+subtitle: Mathematics Student, Gettysburg College
 
 profile:
   align: right
@@ -24,10 +24,10 @@ announcements:
   limit: 5 
 ---
 
-Hi there! I'm Gideon, a senior mathematics undergraduate at Gettysburg College.
+Hi there! I'm Gideon, a 4th year mathematics undergraduate at Gettysburg College.
 
 I like taking my time to think through problems and ask questions until I understand them deeply. That curiosity and persistence eventually led me into research, and to publishing my first peer-reviewed paper in **Statistics and Probability Letters (Elsevier)**.
 
 What excites me most is seeing how mathematics can be used to understand and solve real-world problems. I'm always learning, always asking questions, and always looking for opportunities to apply mathematical ideas to research in AI, quantitative, and beyond. I'm not driven by being the smartest person in the room, I'm driven by curiosity and the willingness to stay with a problem until it opens up.
 
-You can find my resume at this [Resume](https://drive.google.com/file/d/1CmQs6z1FCWOxUnYs2T_vkBv5ti2K6_rI/view?usp=sharing). Check out my [papers](/publications/), and [personal interests](/blog/)!
+You can find my resume [here](https://drive.google.com/file/d/1CmQs6z1FCWOxUnYs2T_vkBv5ti2K6_rI/view?usp=sharing). Check out my [papers](/publications/).
