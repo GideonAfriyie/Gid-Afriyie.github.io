@@ -1,23 +1,25 @@
 ---
 layout: page
-title: Large-Scale ML on Cloud TPUs
-description: Scaling statistical models using distributed JAX/PyTorch pipelines on Cloud TPU infrastructure.
-img: assets/img/google_tpu_preview.png
-importance: 2
-category: work
+title: EVT for Prime Constellations
+description: Extending Extreme Value Theory to compare Twin and Sophie Germain prime distributions against standard prime gaps.
+img: 1*oOfQe30ajiwakSox3tOsoA.png
+importance: 3
+category: Work
 ---
 
-As part of the Google TRC Research program, I am utilizing a high-performance Cloud TPU infrastructure grant to scale large-scale machine learning experiments. 
+Following the acceptance of my paper on EVT applied to general prime gap distributions, I am extending the same methodology to Twin Primes and Sophie Germain Primes - two rare and structurally distinct prime subsets.
 
-My work focuses on developing distributed JAX and PyTorch pipelines to train deep neural networks. By leveraging Google's TPU hardware, we aim to accelerate the training of advanced statistical models designed to model and predict extreme-value behavior across massive, billion-point datasets.
+While general prime gaps converge to Gumbel-type behavior at scale as predicted by the prime number theorem, Twin and Sophie Germain primes are significantly sparser and more clustered. Whether their extreme gap distributions follow the same Gumbel pattern or exhibit different tail behavior is an open empirical question.
+
+This work applies normalized GEV analysis across larger datasets using the same rigorous framework from the recently publised paper in Statistics and Probability Letters (Elsevier), now extended to test whether classical EVT predictions hold for these special prime families.
 
 <div class="row justify-content-sm-center mt-4">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/google_tpu_preview.png" title="Google Cloud TPU" class="img-fluid rounded z-depth-1" %}
-    <div class="caption">Scaling deep learning models on distributed Google Cloud TPU v4/v5e hardware.</div>
+    {% include figure.liquid loading="eager" path="assets/img/1*oOfQe30ajiwakSox3tOsoA.png" title="Solphie & Twin primes" class="img-fluid rounded z-depth-1" %}
+    <div class="caption">Extending Extreme Value Theory to compare Twin and Sophie Germain prime distributions against standard prime gaps.</div>
   </div>
 </div>
 
 ---
 
-*This is an active research project. Write-ups, models, and benchmarks will be added here as the work progresses.*
+*This work is currently under **Revise & Resubmit** at the *JP Journal of Algebra, Number Theory and Applications.*
