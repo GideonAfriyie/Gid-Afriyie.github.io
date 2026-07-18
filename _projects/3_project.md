@@ -1,7 +1,7 @@
 ---
 layout: page
 title: EVT for Prime Constellations
-description: Extending Extreme Value Theory to compare Twin and Sophie Germain prime distributions against standard prime gaps.
+description: Extending EVT to compare Twin and Sophie Germain prime distributions against standard prime gaps.
 img: 1*oOfQe30ajiwakSox3tOsoA.png
 importance: 3
 category: Work
