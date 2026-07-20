@@ -10,7 +10,7 @@ related_publications: true
 
 This project began with a simple question that I couldn't stop thinking about.
 
-About a year and few months ago, I came across an article explaining how **Extreme Value Theory (EVT)** is used to study the tails of probability distributions—the rare, extreme events behind things like catastrophic floods, financial crashes, and other unlikely phenomena. My first thought was:
+About a year and few months ago, I came across an article explaining how **Extreme Value Theory (EVT)** is used to study the tails of probability distributions - the rare, extreme events behind things like catastrophic floods, financial crashes, and other unlikely phenomena. My first thought was:
 
 > *Could these same statistical ideas tell us something about prime numbers?*
 
