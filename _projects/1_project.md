@@ -75,7 +75,7 @@ to demonstrate that the sequence behaves statistically much like independent, id
 
 ### What I Learned
 
-In summary, this project took about **15 months** from the initial idea to journal acceptance.
+In summary, this project took about **15months** from the initial idea to journal acceptance.
 
 Along the way, the paper was rejected by journals that considered it outside their scope, challenged by reviewers who pushed me to justify every assumption, and revised it.
 
@@ -93,6 +93,6 @@ This paper began with a question that probably sounded naive:
 
 > *Could Extreme Value Theory tell us something about prime numbers?*
 
-Almost 15 months later, that curiosity became my first peer-reviewed journal publication.
+Months later, that curiosity became my first peer-reviewed journal publication.
 
 Perhaps the most unexpected moment came when the editorial board invited me to serve as a peer reviewer for a manuscript on extreme value distributions. Since I was balancing work and several commitments, I had to decline the invitation, but it meant a great deal to me. One day, when I have gained more experience, I hope to contribute to the research community in the same way others helped me throughout this journey.
