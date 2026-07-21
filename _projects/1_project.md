@@ -34,7 +34,7 @@ Reviewer summarized it well:
 
 At that point I had two options.
 
-I could convince myself that the reviewers simply didn't understand the work, or I could assume they were pointing out genuine weaknesses and use their feedback to improve it.
+I could convince myself that the reviewers simply didn't understand the work, or I could treat their comments as genuine weaknesses and use the feedback to improve it.
 
 I chose the second option.
 
