@@ -7,9 +7,9 @@ importance: 2
 category: work
 ---
 
-As part of the Google TRC Research program, I am utilizing a high-performance Cloud TPU infrastructure to scale large-scale machine learning experiments. 
+As part of the Google TRC Research program, I am utilizing a high-performance Cloud TPU infrastructure grant to scale large-scale machine learning experiments. 
 
-My work focuses on developing distributed JAX and PyTorch pipelines to train deep neural networks. By leveraging Google's TPU hardware, I aim to accelerate the training of advanced statistical models designed to model and predict extreme-value behavior across massive, billion-point datasets.
+My work focuses on developing distributed JAX and PyTorch pipelines to train deep neural networks. By leveraging Google's TPU hardware, I aim to accelerate the training of statistical models designed to model and predict extreme-value behavior across massive, billion-point datasets.
 
 <div class="row justify-content-sm-center mt-4">
   <div class="col-sm-8 mt-3 mt-md-0">
